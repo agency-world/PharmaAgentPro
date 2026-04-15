@@ -1,0 +1,301 @@
+[
+  {
+    "trial_id": "PCT-2024-0147",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Phase II Study of Nexavirin in Adults with Moderate COVID-19",
+    "compound_id": "PHA-001",
+    "compound_name": "Nexavirin",
+    "phase": "Phase II",
+    "status": "Enrolling",
+    "design": "Randomized, double-blind, placebo-controlled, parallel-group",
+    "primary_endpoint": "Time to sustained clinical recovery by Day 28",
+    "secondary_endpoints": [
+      "Viral load reduction at Day 5",
+      "Rate of hospitalization by Day 14",
+      "Change in inflammatory biomarkers (CRP, IL-6)",
+      "Safety and tolerability assessment"
+    ],
+    "population": {
+      "target_enrollment": 420,
+      "current_enrollment": 287,
+      "age_range": "18-75",
+      "inclusion_criteria": [
+        "Confirmed SARS-CoV-2 infection by RT-PCR",
+        "Symptom onset within 5 days",
+        "SpO2 >= 93% on room air",
+        "At least one risk factor for severe disease"
+      ],
+      "exclusion_criteria": [
+        "Requiring supplemental oxygen at screening",
+        "eGFR < 30 mL/min",
+        "Severe hepatic impairment (Child-Pugh C)",
+        "Concurrent use of strong CYP3A4 inhibitors"
+      ]
+    },
+    "arms": [
+      {"name": "Nexavirin 400mg BID", "participants": 140, "description": "400mg twice daily for 5 days"},
+      {"name": "Nexavirin 200mg BID", "participants": 140, "description": "200mg twice daily for 5 days"},
+      {"name": "Placebo", "participants": 140, "description": "Matching placebo twice daily for 5 days"}
+    ],
+    "sites": [
+      {"name": "Mass General Brigham", "location": "Boston, MA", "pi": "Dr. Thomas Weber", "enrolled": 82},
+      {"name": "Johns Hopkins Medical Center", "location": "Baltimore, MD", "pi": "Dr. Linda Park", "enrolled": 71},
+      {"name": "UCSF Medical Center", "location": "San Francisco, CA", "pi": "Dr. Kevin Nguyen", "enrolled": 68},
+      {"name": "Cleveland Clinic", "location": "Cleveland, OH", "pi": "Dr. Rachel Stone", "enrolled": 66}
+    ],
+    "start_date": "2024-06-15",
+    "estimated_completion": "2025-12-30",
+    "sponsor": "PharmaAgent Therapeutics Inc.",
+    "dsmb_review_dates": ["2024-12-01", "2025-06-01", "2025-10-01"],
+    "regulatory_submissions": {
+      "ind_number": "IND-157832",
+      "irb_approval": "2024-05-20",
+      "fda_feedback": "Favorable Phase II design accepted"
+    }
+  },
+  {
+    "trial_id": "PCT-2023-0089",
+    "title": "ONCOLYZE-3: A Phase III, Open-Label Study of Oncolytin-B vs Standard of Care in EGFR-Mutant NSCLC After Prior TKI Therapy",
+    "compound_id": "PHA-002",
+    "compound_name": "Oncolytin-B",
+    "phase": "Phase III",
+    "status": "Active, not recruiting",
+    "design": "Randomized, open-label, active-controlled",
+    "primary_endpoint": "Progression-free survival (PFS) by RECIST v1.1",
+    "secondary_endpoints": [
+      "Overall survival (OS)",
+      "Objective response rate (ORR)",
+      "Duration of response (DoR)",
+      "CNS progression-free survival",
+      "Patient-reported outcomes (EORTC QLQ-LC13)"
+    ],
+    "population": {
+      "target_enrollment": 600,
+      "current_enrollment": 598,
+      "age_range": "18+",
+      "inclusion_criteria": [
+        "Histologically confirmed NSCLC with EGFR mutation",
+        "Disease progression on at least one prior EGFR TKI",
+        "T790M mutation confirmed by tissue or liquid biopsy",
+        "ECOG performance status 0-1",
+        "Measurable disease per RECIST v1.1"
+      ],
+      "exclusion_criteria": [
+        "Prior treatment with 3rd-generation EGFR TKI",
+        "Symptomatic brain metastases requiring steroids",
+        "History of interstitial lung disease",
+        "QTcF prolongation > 470ms"
+      ]
+    },
+    "arms": [
+      {"name": "Oncolytin-B 150mg QD", "participants": 400, "description": "150mg once daily until progression"},
+      {"name": "Docetaxel 75mg/m2 Q3W", "participants": 200, "description": "Standard-of-care chemotherapy"}
+    ],
+    "sites": [
+      {"name": "MD Anderson Cancer Center", "location": "Houston, TX", "pi": "Dr. William Chang", "enrolled": 125},
+      {"name": "Memorial Sloan Kettering", "location": "New York, NY", "pi": "Dr. Priya Sharma", "enrolled": 118},
+      {"name": "Dana-Farber Cancer Institute", "location": "Boston, MA", "pi": "Dr. Michael Torres", "enrolled": 112},
+      {"name": "Mayo Clinic", "location": "Rochester, MN", "pi": "Dr. Susan Kim", "enrolled": 108},
+      {"name": "UCLA Jonsson Comprehensive", "location": "Los Angeles, CA", "pi": "Dr. Robert Chen", "enrolled": 135}
+    ],
+    "start_date": "2023-11-01",
+    "estimated_completion": "2026-06-30",
+    "sponsor": "PharmaAgent Therapeutics Inc.",
+    "dsmb_review_dates": ["2024-05-15", "2024-11-15", "2025-05-15", "2025-11-15"],
+    "interim_results": {
+      "data_cutoff": "2025-09-30",
+      "pfs_hazard_ratio": 0.42,
+      "pfs_median_months_treatment": 14.8,
+      "pfs_median_months_control": 6.2,
+      "orr_treatment": 0.68,
+      "orr_control": 0.21,
+      "grade3plus_ae_rate_treatment": 0.34,
+      "grade3plus_ae_rate_control": 0.51
+    },
+    "regulatory_submissions": {
+      "ind_number": "IND-142567",
+      "irb_approval": "2023-09-15",
+      "fda_feedback": "Breakthrough Therapy Designation granted",
+      "nda_planned": "2026-Q3"
+    }
+  },
+  {
+    "trial_id": "PCT-2025-0201",
+    "title": "IMMUNEX-FIRST: A Phase I Dose-Escalation and Expansion Study of Immunex-340 in Advanced Solid Tumors",
+    "compound_id": "PHA-003",
+    "compound_name": "Immunex-340",
+    "phase": "Phase I",
+    "status": "Enrolling",
+    "design": "Open-label, dose-escalation (3+3 design) with expansion cohorts",
+    "primary_endpoint": "Maximum tolerated dose (MTD) and recommended Phase 2 dose (RP2D)",
+    "secondary_endpoints": [
+      "Pharmacokinetic profile (Cmax, AUC, t1/2)",
+      "Immunogenicity (anti-drug antibody formation)",
+      "Preliminary anti-tumor activity (RECIST v1.1)",
+      "Immune biomarker changes (PD-L1, TIM-3, CD8+ T cells)"
+    ],
+    "population": {
+      "target_enrollment": 90,
+      "current_enrollment": 34,
+      "age_range": "18+",
+      "inclusion_criteria": [
+        "Advanced or metastatic solid tumors refractory to standard therapy",
+        "ECOG performance status 0-1",
+        "Adequate organ function",
+        "PD-L1 TPS >= 1% (expansion cohorts only)"
+      ],
+      "exclusion_criteria": [
+        "Active autoimmune disease requiring systemic therapy",
+        "Prior organ transplant",
+        "Active CNS metastases",
+        "Prior Grade 4 immune-related adverse event"
+      ]
+    },
+    "arms": [
+      {"name": "Dose Level 1: 0.1 mg/kg Q3W", "participants": 6, "description": "Starting dose"},
+      {"name": "Dose Level 2: 0.3 mg/kg Q3W", "participants": 6, "description": "Escalation"},
+      {"name": "Dose Level 3: 1.0 mg/kg Q3W", "participants": 10, "description": "Escalation"},
+      {"name": "Dose Level 4: 3.0 mg/kg Q3W", "participants": 12, "description": "Current enrolling level"},
+      {"name": "Expansion: Melanoma", "participants": 28, "description": "RP2D in melanoma"},
+      {"name": "Expansion: NSCLC", "participants": 28, "description": "RP2D in NSCLC"}
+    ],
+    "sites": [
+      {"name": "NIH Clinical Center", "location": "Bethesda, MD", "pi": "Dr. Amanda Foster", "enrolled": 14},
+      {"name": "City of Hope", "location": "Duarte, CA", "pi": "Dr. David Park", "enrolled": 12},
+      {"name": "Moffitt Cancer Center", "location": "Tampa, FL", "pi": "Dr. Claudia Reyes", "enrolled": 8}
+    ],
+    "start_date": "2025-03-01",
+    "estimated_completion": "2027-06-30",
+    "sponsor": "PharmaAgent Therapeutics Inc.",
+    "dsmb_review_dates": ["2025-09-01", "2026-03-01"],
+    "regulatory_submissions": {
+      "ind_number": "IND-168901",
+      "irb_approval": "2025-01-28",
+      "fda_feedback": "Fast Track Designation under review"
+    }
+  },
+  {
+    "trial_id": "PCT-2025-0178",
+    "title": "NEURA-CLEAR: A Phase I First-in-Human Study of Neuragen-X in Patients with Early Alzheimer's Disease",
+    "compound_id": "PHA-004",
+    "compound_name": "Neuragen-X",
+    "phase": "Phase I",
+    "status": "Enrolling",
+    "design": "Randomized, double-blind, placebo-controlled, single ascending dose (SAD) and multiple ascending dose (MAD)",
+    "primary_endpoint": "Safety, tolerability, and pharmacokinetics of single and multiple doses",
+    "secondary_endpoints": [
+      "CSF tau/p-tau biomarker changes",
+      "Plasma NfL levels",
+      "Amyloid PET sub-study",
+      "Cognitive assessment (ADAS-Cog14) exploratory"
+    ],
+    "population": {
+      "target_enrollment": 72,
+      "current_enrollment": 18,
+      "age_range": "55-80",
+      "inclusion_criteria": [
+        "Clinical diagnosis of MCI due to AD or mild AD dementia",
+        "Positive amyloid PET or CSF biomarkers",
+        "MMSE score 20-28",
+        "Stable background AD therapy for >= 3 months"
+      ],
+      "exclusion_criteria": [
+        "Non-AD dementia",
+        "Significant cerebrovascular disease on MRI",
+        "Seizure history",
+        "Use of anti-tau therapy within 6 months"
+      ]
+    },
+    "arms": [
+      {"name": "SAD Cohort 1: 25mg single dose", "participants": 8, "description": "6 active : 2 placebo"},
+      {"name": "SAD Cohort 2: 75mg single dose", "participants": 8, "description": "6 active : 2 placebo"},
+      {"name": "SAD Cohort 3: 200mg single dose", "participants": 8, "description": "6 active : 2 placebo"},
+      {"name": "MAD Cohort 1: 50mg BID x 14 days", "participants": 12, "description": "9 active : 3 placebo"},
+      {"name": "MAD Cohort 2: 150mg BID x 14 days", "participants": 12, "description": "9 active : 3 placebo"},
+      {"name": "MAD Cohort 3: 300mg BID x 14 days", "participants": 12, "description": "9 active : 3 placebo"},
+      {"name": "MAD Cohort 4: 500mg BID x 28 days", "participants": 12, "description": "9 active : 3 placebo"}
+    ],
+    "sites": [
+      {"name": "UCSF Memory and Aging Center", "location": "San Francisco, CA", "pi": "Dr. Emily Watson", "enrolled": 10},
+      {"name": "Banner Alzheimer's Institute", "location": "Phoenix, AZ", "pi": "Dr. Carlos Mendez", "enrolled": 8}
+    ],
+    "start_date": "2025-08-01",
+    "estimated_completion": "2027-08-31",
+    "sponsor": "PharmaAgent Therapeutics Inc.",
+    "dsmb_review_dates": ["2026-02-01", "2026-08-01"],
+    "regulatory_submissions": {
+      "ind_number": "IND-171245",
+      "irb_approval": "2025-06-15",
+      "fda_feedback": "FDA agreed to adaptive dose escalation design"
+    }
+  },
+  {
+    "trial_id": "PCT-2024-0156",
+    "title": "INFLAM-RESOLVE: A Phase III Study of Inflammablock vs Tofacitinib in Moderate-to-Severe Rheumatoid Arthritis",
+    "compound_id": "PHA-006",
+    "compound_name": "Inflammablock",
+    "phase": "Phase III",
+    "status": "Active, not recruiting",
+    "design": "Randomized, double-blind, double-dummy, active-controlled, non-inferiority",
+    "primary_endpoint": "ACR50 response rate at Week 24",
+    "secondary_endpoints": [
+      "ACR20 and ACR70 at Week 12 and 24",
+      "DAS28-CRP change from baseline",
+      "HAQ-DI improvement",
+      "Radiographic progression (mTSS) at Week 52",
+      "Safety: infection rates, lipid changes, VTE events"
+    ],
+    "population": {
+      "target_enrollment": 750,
+      "current_enrollment": 748,
+      "age_range": "18-80",
+      "inclusion_criteria": [
+        "ACR/EULAR 2010 RA classification criteria",
+        "Inadequate response to >= 1 csDMARD",
+        "DAS28-CRP >= 3.2",
+        ">= 6 swollen and >= 6 tender joints"
+      ],
+      "exclusion_criteria": [
+        "Prior JAK inhibitor use",
+        "Active or latent tuberculosis",
+        "History of VTE or PE",
+        "Current malignancy (except NMSC)"
+      ]
+    },
+    "arms": [
+      {"name": "Inflammablock 30mg QD", "participants": 375, "description": "Once daily with methotrexate background"},
+      {"name": "Tofacitinib 5mg BID", "participants": 375, "description": "Active comparator with methotrexate background"}
+    ],
+    "sites": [
+      {"name": "Hospital for Special Surgery", "location": "New York, NY", "pi": "Dr. Laura Martinez", "enrolled": 95},
+      {"name": "Stanford Medical Center", "location": "Stanford, CA", "pi": "Dr. Andrew Kim", "enrolled": 88},
+      {"name": "Brigham and Women's Hospital", "location": "Boston, MA", "pi": "Dr. Patricia Wong", "enrolled": 92},
+      {"name": "University of Michigan", "location": "Ann Arbor, MI", "pi": "Dr. Steven Hall", "enrolled": 85},
+      {"name": "Cedars-Sinai Medical Center", "location": "Los Angeles, CA", "pi": "Dr. Jennifer Ross", "enrolled": 90},
+      {"name": "Duke University Medical Center", "location": "Durham, NC", "pi": "Dr. Mark Johnson", "enrolled": 82},
+      {"name": "Northwestern Memorial Hospital", "location": "Chicago, IL", "pi": "Dr. Lisa Chen", "enrolled": 78},
+      {"name": "Emory University Hospital", "location": "Atlanta, GA", "pi": "Dr. Brian Davis", "enrolled": 72},
+      {"name": "University of Pennsylvania", "location": "Philadelphia, PA", "pi": "Dr. Alison Park", "enrolled": 66}
+    ],
+    "start_date": "2024-03-01",
+    "estimated_completion": "2026-09-30",
+    "sponsor": "PharmaAgent Therapeutics Inc.",
+    "dsmb_review_dates": ["2024-09-01", "2025-03-01", "2025-09-01", "2026-03-01"],
+    "interim_results": {
+      "data_cutoff": "2025-09-15",
+      "acr50_week24_treatment": 0.52,
+      "acr50_week24_control": 0.47,
+      "das28_crp_change_treatment": -2.8,
+      "das28_crp_change_control": -2.5,
+      "serious_infection_rate_treatment": 0.028,
+      "serious_infection_rate_control": 0.035,
+      "vte_rate_treatment": 0.005,
+      "vte_rate_control": 0.008
+    },
+    "regulatory_submissions": {
+      "ind_number": "IND-155678",
+      "irb_approval": "2024-01-10",
+      "fda_feedback": "NI margin of 10% accepted for ACR50 primary endpoint",
+      "nda_planned": "2027-Q1"
+    }
+  }
+]

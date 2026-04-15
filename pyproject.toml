@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "pharma-agent-pro"
+version = "1.0.0"
+description = "Multi-agent pharmaceutical assistant powered by Claude Managed Agents"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.45.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "pydantic>=2.10.0",
+    "rich>=13.9.0",
+    "prompt-toolkit>=3.0.48",
+    "pandas>=2.2.0",
+    "jinja2>=3.1.4",
+    "aiofiles>=24.1.0",
+    "httpx>=0.28.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0", "pytest-asyncio>=0.24.0", "ruff>=0.8.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

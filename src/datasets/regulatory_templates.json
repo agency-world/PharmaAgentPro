@@ -1,0 +1,116 @@
+{
+  "templates": {
+    "ind_annual_report": {
+      "name": "IND Annual Report (21 CFR 312.33)",
+      "sections": [
+        "Individual Study Information",
+        "Summary of Clinical Pharmacology",
+        "Summary of Safety Information",
+        "Summary of Efficacy Results",
+        "Summary of Manufacturing Changes",
+        "Investigator Brochure Updates",
+        "Protocol Modifications",
+        "Foreign Marketing Developments",
+        "Outstanding Business"
+      ],
+      "required_fields": ["ind_number", "sponsor", "compound_name", "reporting_period", "submission_date"],
+      "compliance_standard": "21 CFR 312.33"
+    },
+    "clinical_study_report": {
+      "name": "Clinical Study Report (ICH E3)",
+      "sections": [
+        "Title Page",
+        "Synopsis",
+        "Table of Contents",
+        "List of Abbreviations",
+        "Ethics",
+        "Investigators and Study Administrative Structure",
+        "Introduction",
+        "Study Objectives",
+        "Investigational Plan",
+        "Study Patients",
+        "Efficacy Evaluation",
+        "Safety Evaluation",
+        "Discussion and Overall Conclusions",
+        "Appendices"
+      ],
+      "required_fields": ["study_id", "compound_name", "phase", "sponsor", "report_date"],
+      "compliance_standard": "ICH E3"
+    },
+    "safety_report_cioms": {
+      "name": "CIOMS I Safety Report",
+      "sections": [
+        "Patient Information",
+        "Adverse Event Information",
+        "Suspect Drug Information",
+        "Concomitant Medications",
+        "Reporter Information",
+        "Narrative Summary"
+      ],
+      "required_fields": ["ae_id", "compound_name", "patient_initials", "event_term", "seriousness_criteria", "reporter"],
+      "compliance_standard": "ICH E2A / CIOMS I"
+    },
+    "investigator_brochure": {
+      "name": "Investigator's Brochure (ICH E6 R2)",
+      "sections": [
+        "Summary",
+        "Introduction",
+        "Physical, Chemical, and Pharmaceutical Properties",
+        "Nonclinical Studies",
+        "Effects in Humans",
+        "Summary of Data and Guidance for the Investigator"
+      ],
+      "required_fields": ["compound_name", "version", "date", "sponsor"],
+      "compliance_standard": "ICH E6(R2)"
+    },
+    "dsur": {
+      "name": "Development Safety Update Report (ICH E2F)",
+      "sections": [
+        "Executive Summary",
+        "Introduction",
+        "Worldwide Marketing Approval Status",
+        "Actions Taken for Safety Reasons",
+        "Changes to Reference Safety Information",
+        "Inventory of Clinical Trials",
+        "Estimated Cumulative Exposure",
+        "Presentation of Safety Data",
+        "Signal Evaluation",
+        "Overall Safety Assessment",
+        "Summary of Important Risks",
+        "Benefit-Risk Conclusions"
+      ],
+      "required_fields": ["compound_name", "development_phase", "reporting_period", "sponsor", "dibd"],
+      "compliance_standard": "ICH E2F"
+    },
+    "protocol_synopsis": {
+      "name": "Clinical Trial Protocol Synopsis",
+      "sections": [
+        "Protocol Title",
+        "Study Phase",
+        "Study Objectives",
+        "Study Design",
+        "Study Population",
+        "Treatment Plan",
+        "Primary Endpoint",
+        "Secondary Endpoints",
+        "Sample Size Justification",
+        "Statistical Analysis Plan",
+        "Safety Monitoring",
+        "Ethical Considerations"
+      ],
+      "required_fields": ["protocol_number", "compound_name", "phase", "indication", "sponsor"],
+      "compliance_standard": "ICH E6(R2)"
+    }
+  },
+  "compliance_standards": {
+    "21_CFR_312": "US FDA IND Regulations",
+    "21_CFR_314": "US FDA NDA Regulations",
+    "ICH_E2A": "Clinical Safety Data Management: Definitions and Standards for Expedited Reporting",
+    "ICH_E2F": "Development Safety Update Report",
+    "ICH_E3": "Structure and Content of Clinical Study Reports",
+    "ICH_E6_R2": "Good Clinical Practice",
+    "ICH_E8_R1": "General Considerations for Clinical Studies",
+    "ICH_E9_R1": "Statistical Principles for Clinical Trials",
+    "ICH_M4": "Common Technical Document (CTD)"
+  }
+}
