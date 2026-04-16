@@ -225,8 +225,6 @@ deploy/deploy_state.json
 
 # Generated regulatory / marketing artifacts (rebuilt via docs/generate_*.py)
 docs/_build/
-docs/*.docx
-docs/*.pptx
 UserGuide.rtf
 
 # Local secrets / API keys
